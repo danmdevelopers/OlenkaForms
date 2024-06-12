@@ -1,0 +1,21 @@
+{
+    "profiles": {
+      "OlenkaForms": {
+        "commandName": "Project",
+        "commandLineArgs": "--port 7180",
+        "launchBrowser": false,
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development",
+          "DATABASE": "Server=20.83.145.56;Database=OlenkaIA;TrustServerCertificate=True;MultiSubnetFailover=True;Trusted_Connection=False;User Id=sa;Password=W@rmachine2403;",
+          "DATABASELOG": "Server=20.83.145.56;Database=OlenkaIA;TrustServerCertificate=True;MultiSubnetFailover=True;Trusted_Connection=False;User Id=sa;Password=W@rmachine2403;",
+          "DATABASEEXCEPTIONS": "Server=20.83.145.56;Database=OlenkaIA;TrustServerCertificate=True;MultiSubnetFailover=True;Trusted_Connection=False;User Id=sa;Password=W@rmachine2403;",
+          "DBOAUTH": "Server=20.83.145.56;Database=OlenkaIA;TrustServerCertificate=True;MultiSubnetFailover=True;Trusted_Connection=False;User Id=sa;Password=W@rmachine2403;",
+          "PATHLOG": "C:\\Logs",
+          "URL_OAUHT": "http://localhost:7184/api/graphql",
+          "UriOAuth": "http://localhost:7184/api/graphql",
+          "UriSecurity": "http://localhost:7011/api/graphql"
+        }
+      }
+       
+    }
+}
